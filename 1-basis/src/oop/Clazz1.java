@@ -18,7 +18,7 @@ public class Clazz1 {
         System.out.println("构造方法执行");
     }
 
-    public void print() {
+    protected void print() {
         System.out.println(var);
     }
 

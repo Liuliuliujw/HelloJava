@@ -17,7 +17,7 @@ public class Clazz2 extends Clazz1 {
         super(0);
     }
 
-    //方法重写: 覆盖父类的print()方法
+    //方法重写: 覆盖父类的print()方法 ,覆写方法时，可以选择扩大方法的访问范围
     public void print() {
         System.out.printf("子类var: %d\n父类var: %d\n", var, super.var);
     }
