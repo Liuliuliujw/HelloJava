@@ -12,7 +12,7 @@ package utilclass;
  *
  * @author llliujw
  */
-public class wrapperTest {
+public class WrapperTest {
     public static void main(String[] args) {
         test1();
         test2();
